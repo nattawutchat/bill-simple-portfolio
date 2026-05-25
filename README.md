@@ -12,7 +12,14 @@
 - **Pandas & NumPy:** สำหรับการเตรียมข้อมูล (Data Preprocessing)
 - **Scikit-learn:** สำหรับการสร้างและประเมินผล Machine Learning Model
 - **Matplotlib & Seaborn:** สำหรับการทำ Data Visualization
-- **HTML/CSS/JS:** สำหรับหน้าเว็บไซต์ Portfolio นี้
+- **HTML/CSS/JS:** สำหรับหน้าเว็บไซต์ Portfolio นี้ (จัดเก็บในโฟลเดอร์ `docs/`)
+
+## 📂 โครงสร้างโปรเจกต์ (Project Structure)
+- `docs/`: โฟลเดอร์สำหรับหน้าเว็บไซต์ (GitHub Pages)
+  - `index.html`: หน้าหลักของ Portfolio
+  - `style.css`: ไฟล์กำหนดรูปแบบเว็บไซต์
+  - `script.js`: ไฟล์ควบคุมการทำงาน (เช่น Theme Toggle)
+- `plan/`: เอกสารวางแผนโครงการ
 
 ## 📂 ลำดับการทำงาน
 1. **Data Cleaning:** จัดการข้อมูลที่สูญหายและเตรียมตัวแปร (Encoding)
