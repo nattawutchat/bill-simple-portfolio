@@ -1,37 +1,24 @@
-# 📊 Data Analyst Portfolio - Bill Nattawut
+# 📊 Telco Churn Modeling Portfolio - Bill Nattawut
 
-ยินดีต้อนรับสู่โปรเจกต์เว็บไซต์ Portfolio ส่วนตัวสำหรับสายงาน **Data Analyst** ของคุณ Bill Nattawut เว็บไซต์นี้ออกแบบมาให้ทันสมัย ใช้งานง่าย และรองรับการแสดงผลทั้ง Dark และ Light Mode ค่ะ
+โปรเจกต์นี้เป็นการนำเสนอการทำ **Churn Modeling** ในธุรกิจโทรคมนาคม (Telco) เพื่อทำนายว่าลูกค้าคนใดมีโอกาสจะเลิกใช้งานบริการ โดยครอบคลุมตั้งแต่ขั้นตอนการทำ EDA ไปจนถึงการสร้าง Machine Learning Model ค่ะ
 
-## ✨ คุณสมบัติเด่น (Key Features)
-- **Modern Dark/Light Theme:** มีปุ่มสลับโหมดที่มุมขวาบน พร้อมระบบจดจำธีมที่เลือกไว้ (LocalStorage)
-- **Responsive Design:** แสดงผลได้สวยงามทั้งบนหน้าจอคอมพิวเตอร์และมือถือ
-- **Sarabun Font:** ใช้ฟอนต์มาตรฐานที่อ่านง่ายและเป็นมืออาชีพ
-- **Smooth Scrolling:** ระบบนำทางที่นุ่มนวลเมื่อคลิกเลือกเมนูต่างๆ
-- **GitHub Pages Ready:** รองรับการ Deploy บน GitHub Pages ได้ทันที
+## ✨ ไฮไลท์ของโปรเจกต์ (Project Highlights)
+- **Exploratory Data Analysis (EDA):** เจาะลึกพฤติกรรมลูกค้า ข้อมูลประชากร และประเภทสัญญาที่ส่งผลต่อการ Churn
+- **Machine Learning Models:** การเปรียบเทียบประสิทธิภาพของ Logistic Regression, Decision Tree และ Random Forest
+- **Actionable Insights:** ข้อเสนอแนะเชิงธุรกิจเพื่อลดอัตราการเลิกใช้งานของลูกค้า (Retention Strategy)
 
-## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
-- **HTML5:** โครงสร้างหลักของเว็บไซต์
-- **CSS3 (Vanilla):** การตกแต่งสไตล์และระบบสลับธีมโดยใช้ CSS Variables
-- **JavaScript (ES6+):** การจัดการ Logic การสลับธีมและ Smooth Scrolling
-- **Google Fonts:** ฟอนต์ Sarabun
+## 🛠️ เครื่องมือที่ใช้ (Tech Stack)
+- **Python:** ภาษาหลักในการวิเคราะห์และสร้างโมเดล
+- **Pandas & NumPy:** สำหรับการเตรียมข้อมูล (Data Preprocessing)
+- **Scikit-learn:** สำหรับการสร้างและประเมินผล Machine Learning Model
+- **Matplotlib & Seaborn:** สำหรับการทำ Data Visualization
+- **HTML/CSS/JS:** สำหรับหน้าเว็บไซต์ Portfolio นี้
 
-## 📂 โครงสร้างโปรเจกต์
-```
-├── index.html      # ไฟล์หน้าหลักของเว็บไซต์
-├── style.css       # ไฟล์จัดการสไตล์และธีม
-├── script.js       # ไฟล์จัดการโต้ตอบ (Interactions)
-├── plan/           # โฟลเดอร์เก็บเอกสารแผนงาน
-│   └── our_plan.md # รายละเอียดแผนการพัฒนาโปรเจกต์
-└── README.md       # เอกสารแนะนำโปรเจกต์ (ไฟล์นี้)
-```
-
-## 🚀 วิธีการใช้งาน (Getting Started)
-1. **Clone Repository:**
-   ```bash
-   git clone https://github.com/nattawutchat/bill-simple-portfolio.git
-   ```
-2. **เปิดใช้งาน:**
-   เพียงเปิดไฟล์ `index.html` ด้วยเว็บเบราว์เซอร์ของคุณ
+## 📂 ลำดับการทำงาน
+1. **Data Cleaning:** จัดการข้อมูลที่สูญหายและเตรียมตัวแปร (Encoding)
+2. **EDA:** สร้าง Visualization เพื่อหา Insight เบื้องต้น
+3. **Model Building:** ฝึกฝนโมเดลด้วยชุดข้อมูล Train/Test
+4. **Evaluation:** วัดผลด้วย Accuracy, Precision, Recall และ F1-Score
 
 ## 📝 ข้อมูลติดต่อ (Contact)
 - **Name:** Bill Nattawut
